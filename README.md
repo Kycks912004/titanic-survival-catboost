@@ -5,6 +5,10 @@
 [![Accuracy](https://img.shields.io/badge/Accuracy-80.68%25-success?style=for-the-badge)](https://www.kaggle.com/c/titanic)
 [![Kaggle](https://img.shields.io/badge/Kaggle-Titanic-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/c/titanic)
 
+[![Solution](https://img.shields.io/badge/Code-solution.py-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/Kycks912004/titanic-survival-catboost/blob/main/solution.py)
+[![Résultats](https://img.shields.io/badge/CSV-soumission__finale.csv-green?style=for-the-badge&logo=files&logoColor=white)](https://github.com/Kycks912004/titanic-survival-catboost/blob/main/soumission_finale.csv)
+[![Train Data](https://img.shields.io/badge/Data-train.csv-orange?style=for-the-badge&logo=files&logoColor=white)](https://github.com/Kycks912004/titanic-survival-catboost/blob/main/titanic/train.csv)
+
 > Prédiction de survie des passagers du Titanic avec **CatBoost** et feature engineering avancé.  
 > **Précision obtenue : 80.68 %**
 
@@ -53,14 +57,30 @@
 
 ```
 titanic-survival-catboost/
-├── solution.py          # Script principal (CatBoost)
-├── requirements.txt     # Dépendances
-├── titanic/
-│   ├── train.csv        # Données d'entraînement (Kaggle)
-│   ├── test.csv         # Données de test (Kaggle)
-│   └── gender_submission.csv
-└── soumission_finale.csv  # Fichier de soumission généré
+├── solution.py              # Script principal (CatBoost)
+├── requirements.txt         # Dépendances
+├── soumission_finale.csv    # ✅ Résultats — prédictions finales
+└── titanic/
+    ├── train.csv            # Données d'entraînement (891 passagers)
+    ├── test.csv             # Données de test (418 passagers)
+    └── gender_submission.csv
 ```
+
+## 📋 Aperçu des résultats (`soumission_finale.csv`)
+
+| PassengerId | Survived |
+|------------|----------|
+| 892 | 0 |
+| 893 | 0 |
+| 894 | 0 |
+| 895 | 0 |
+| 896 | 1 |
+| 897 | 0 |
+| 898 | 1 |
+| 899 | 0 |
+| … | … |
+
+→ [Voir le fichier complet](https://github.com/Kycks912004/titanic-survival-catboost/blob/main/soumission_finale.csv)
 
 ---
 
